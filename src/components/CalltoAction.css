@@ -1,0 +1,26 @@
+#cta {
+    background-color: #ff5733;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#cta h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#cta .btn {
+    background-color: white;
+    color: #ff5733;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#cta .btn:hover {
+    background-color: #ff8e75;
+    color: white;
+    transform: scale(1.05);
+}

@@ -1,0 +1,47 @@
+.hero {
+    
+    background-color: #ff5733;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-buttons .btn {
+    background-color: white;
+    color: #ff5733;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer; /* Add this line */
+    transition: transform 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+.cta-buttons .btn:hover {
+    background-color: wheat;
+    transform: translateY(-50px); /* Move the button up */
+}
+
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+    }
+
+    .cta-buttons .btn {
+        margin-bottom: 10px;
+    }
+}

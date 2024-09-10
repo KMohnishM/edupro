@@ -1,0 +1,32 @@
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links a,
+.social-media a {
+    color: #ff5733;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.newsletter-signup {
+    margin: 20px 0;
+}
+
+.newsletter-signup input {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.newsletter-signup button {
+    padding: 10px;
+    background-color: #ff5733;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
